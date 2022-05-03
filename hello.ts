@@ -1,4 +1,5 @@
 const titleStyle = "font-weight: bold;";
+const lineStyle = "color: green;";
 
 console.log("%c//////// console", titleStyle);
 
@@ -21,13 +22,13 @@ console.log(
 );
 
 console.log("* res.text():");
-console.log("%c--------", "color: green;");
+console.log("%c--------", lineStyle);
 console.log(await res.text());
-console.log("%c--------", "color: green;");
+console.log("%c--------", lineStyle);
 
 console.log("%c//////// globalThis", titleStyle);
 
 console.log("* globalThis:");
-console.log("%c--------", "color: green;");
+console.log("%c--------", lineStyle);
 console.log(globalThis);
-console.log("%c--------", "color: green;");
+console.log("%c--------", lineStyle);
